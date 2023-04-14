@@ -9,7 +9,7 @@
     "scripts": {
         "postinstall": "npm run build",
         "start": "node ./build/server.js",
-        "build": "npx tsc",
+        "build": "rm -rf ./build && npx tsc",
         "dev": "nodemon ./src/server.ts"
     },
     "repository": {
