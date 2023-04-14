@@ -2,21 +2,20 @@
     "name": "backend_api",
     "version": "1.0.0",
     "description": "",
-    "main": "dist/server.js",
+    "main": "build/server.js",
     "scripts": {
         "postinstall": "npm run build",
-        "start": "node build/src/server.js",
+        "start": "node ./build/server.js",
         "build": "npx tsc",
         "dev": "nodemon ./src/server.ts"
     },
     "repository": {
-        "type": "git",
-        "url": "git+https://github.com/AfriBooks/Backend_api.git"
+        "type": "git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "homepage": "https://github.com/AfriBooks/Backend_api#readme",
+
     "dependencies": {
         "axios": "^0.27.2",
         "body-parser": "^1.20.0",
